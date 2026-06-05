@@ -24,7 +24,6 @@ Since this is a static website, no build tools are required.
 Alternatively, you can use a local server like VS Code's Live Server extension for a better development experience.
 
 ## Contact
-- **Email:** muhammadharoonkhalid786@gmail.com
 - **LinkedIn:** [linkedin.com/in/92haroonkhalid](https://www.linkedin.com/in/92haroonkhalid/)
 - **GitHub:** [github.com/HaronKhalid](https://github.com/HaronKhalid)
 
