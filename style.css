@@ -649,8 +649,8 @@
             transform: translateY(0);
         }
 
-        /* ── MOBILE ── */
-        @media (max-width: 640px) {
+        /* ── MOBILE & TABLET ── */
+        @media (max-width: 768px) {
             nav {
                 padding: 1rem 1.5rem;
             }
@@ -667,14 +667,65 @@
                 padding: 7rem 1.5rem 3rem;
             }
 
+            .hero-name {
+                font-size: clamp(2.8rem, 12vw, 4.5rem);
+            }
+
+            .hero-tagline {
+                font-size: 1rem;
+                margin: 1.5rem 0 2rem;
+            }
+
+            .hero-cta {
+                flex-direction: column;
+                align-items: stretch;
+                width: 100%;
+            }
+
+            .hero-cta .btn {
+                text-align: center;
+                width: 100%;
+            }
+
             .about-grid {
                 grid-template-columns: 1fr;
                 gap: 2.5rem;
             }
 
+            .about-text h2 {
+                font-size: 1.8rem;
+            }
+
+            .project-card {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+                padding: 1.5rem 0;
+                position: relative;
+            }
+
+            .project-num {
+                padding-top: 0;
+            }
+
+            .project-arrow {
+                position: absolute;
+                top: 1.5rem;
+                right: 0;
+            }
+
             .exp-item {
                 grid-template-columns: 1fr;
                 gap: 0.5rem;
+                padding: 1.5rem 0;
+            }
+
+            #contact h2 {
+                font-size: clamp(2rem, 8vw, 2.5rem);
+            }
+
+            .contact-links {
+                gap: 1rem;
+                flex-direction: column;
             }
 
             .hero-scroll {
@@ -682,8 +733,9 @@
             }
 
             footer {
+                padding: 2rem 1.5rem;
                 flex-direction: column;
-                gap: 0.5rem;
+                gap: 1rem;
                 text-align: center;
             }
         }
